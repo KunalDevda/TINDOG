@@ -1,0 +1,164 @@
+body{
+font-family:'Montserrat';
+text-align: center;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+h1,h2,h3{
+  font-weight: 900;
+}
+
+p{
+  font-weight:400;
+  color:#8f8f8f;
+}
+
+/* Navbar-sectio */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+ font-family:"Montserrat-light";
+ font-size:1.2rem;
+}
+
+/* coloring */
+.colored-section{
+  background-color:#ff4c68;
+}
+.white-section{
+  background-color:white;
+}
+
+#testimonials.colored-section{
+  background-color:#ef8172;
+}
+
+/* title-section  photo and big heading*/
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+    text-align: left;
+    color:#fff;
+}
+.rotation{
+  width:60%;
+  transform: rotate(27deg);
+  position:absolute;
+}
+.big-heading{
+  line-height:1.5;
+  font-size:2.5rem;
+}
+
+/* buttons  */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* features-section */
+#features{
+  position:relative;
+  z-index: 1;
+}
+.col-lg-6{
+  padding-left:10px;
+}
+.font1{
+  font-family:"Montserrat-Bold";
+  font-size:1.5rem;
+}
+.font2{
+  color:#8f8f8f;
+}
+.fas{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color:#ff4c68;
+}
+
+.feature-section{
+  font-size: 1.5rem;
+}
+
+/*testimonial*/
+#testimonials{
+  color:white;
+}
+.testimonial-heading{
+  font-size:2.5rem;
+  line-height:1.5;
+}
+
+/* carousel item ko padding so buttons will be at there place */
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin:1%;
+
+}
+
+/*ID = Press*/
+#press{
+  padding-bottom:2%;
+}
+.press-image{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* pricing-section */
+
+#pricing{
+  padding:7%;
+}
+.pricing-coloumn{
+  padding:3% 2%;
+}
+.pricing-heading{
+  font-size:2.5rem;
+  line-height:1.5;
+}
+.pricing-section{
+  font-weight:900;
+}
+
+
+#cta{
+  color:#f8f8f8;
+}
+.cta-heading{
+  font-size: 3rem;
+  line-height: 2;
+}
+
+/* footer section */
+#footer{
+  padding:6%;
+}
+.lastf1{
+  margin:1% 1%;
+}
+
+@media(max-width:992px){
+  #title{
+  }
+  .rotation{
+    position:static;
+    transform: rotate(0);
+}
